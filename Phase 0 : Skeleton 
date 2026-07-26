@@ -1,0 +1,85 @@
+....................................................
+Instruction.md
+
+Create a clean Python package called core_neuron.
+
+This is a production-grade educational neural network framework built completely from scratch using only the Python standard library.
+
+Do NOT use:
+- TensorFlow
+- PyTorch
+- JAX
+- Keras
+- NumPy
+- SciPy
+- Any machine learning framework
+- Any third-party dependency
+
+Generate ONLY the project structure.
+
+Project layout:
+
+core_neuron/
+    __init__.py
+    config.py
+    exceptions.py
+    version.py
+
+    core/
+        __init__.py
+
+    math/
+        __init__.py
+
+    tensor/
+        __init__.py
+
+    nn/
+        __init__.py
+
+    autograd/
+        __init__.py
+
+    optim/
+        __init__.py
+
+    losses/
+        __init__.py
+
+    datasets/
+        __init__.py
+
+    serialization/
+        __init__.py
+
+    utils/
+        __init__.py
+
+tests/
+examples/
+docs/
+
+Root files:
+- pyproject.toml
+- README.md
+- .gitignore
+- LICENSE
+
+Requirements:
+- Create empty placeholder modules only.
+- Add short package/module docstrings.
+- Create empty __init__.py files.
+- Do not generate neural-network code.
+- Do not generate tensor operations.
+- Do not generate autograd.
+- Do not generate optimizers.
+- Do not generate datasets.
+- Do not generate serialization logic.
+- Do not generate example models.
+- Do not generate tests beyond placeholder files.
+- Do not install packages or modify dependencies.
+- Keep the architecture modular, scalable, and production-ready.
+- Output only the generated project structure and placeholder files.
+
+....................................................
+
