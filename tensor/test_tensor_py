@@ -1,0 +1,13 @@
+"""
+tests.tensor.test_tensor
+========================
+Placeholder tests for the core_neuron.tensor.Tensor class.
+
+Tests to be implemented:
+    - ``test_shape_inferred``          – shape is derived from nested list.
+    - ``test_rank_scalar``             – rank-0 tensor has shape ``()``.
+    - ``test_dtype_stored``            – dtype is preserved.
+    - ``test_requires_grad_false``     – default requires_grad is False.
+    - ``test_grad_none_initially``     – grad is None before backward.
+    - ``test_repr``                    – __repr__ contains shape and dtype.
+"""
